@@ -4,10 +4,13 @@ This project aimed to examine how effectively can a speaker gesture style classi
 
 Code sources:
 - The ConvNormRelu class, as well as the PoseStyleEncoder class both come from Ahuja et al. (2020).
+
   GitHub: https://github.com/chahuja/mix-stage/tree/master
 - The Audio Spectrogram Transformer (AST) model comes from Gong et al. (2020).
+
   GitHub: https://github.com/YuanGongND/ast
 - The BERT encoder comes from by Devlin et al. (2018).
+
   HuggingFace: https://huggingface.co/google-bert/bert-base-uncased
 - Claude (Anthropic, 2026) was used for creating encode_audio, encode_text, find_unseen_speakers, the functions for creating the UMAPS and general troubleshooting.
 - The convert_to_memmap code was provided by Bosong Ding.
@@ -19,10 +22,14 @@ The following files are included:
 - **Evaluation:** Includes the code files for evaluating the trained models for each combination of modalities, as well as the code for finding unseen speakers and creating UMAPS.
 
 ## Data
-The data used for this project was the TED-Expressive dataset created by Liu et al. (2022). The dataset can be found [here.]([https://github.com/phelber/EuroSAT](https://github.com/alvinliu0/HA2G))
+The data used for this project was the TED-Expressive dataset created by Liu et al. (2022). 
+
+
+GitHub: https://github.com/alvinliu0/HA2G
 
 ## Audio Anonymization
 For audio anonymization, the VoicePAT DSP pipeline by Meyer et al. (2024) was used.
+
 GitHub: https://github.com/DigitalPhonetics/VoicePAT
 
 ## References relevant to the code
