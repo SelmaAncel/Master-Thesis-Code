@@ -1,4 +1,4 @@
-# Advanced Deep Learning Project Code
+# Master Thesis Code
 This GitHub repository contains the code for the Master Thesis of Selma Ancel.
 This project aimed to examine how effectively can a speaker gesture style classification model be used for creating a retrieval-augmented gesture system to find speakers with a similar gesture style.
 
