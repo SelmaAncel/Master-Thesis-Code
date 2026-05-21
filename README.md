@@ -18,12 +18,11 @@ Code sources:
 ## Setup
 The following files are included:
 - **Data:** Includes the code files for converting the data to memmap format, encoding text with BERT, and encoding audio with the AST.
-- **Training:** Includes the code for training the classifier on pose encodings, pose + audio encodings, pose + text encodings, and pose + audio + text embeddings.
+- **Training:** Includes the code for training the classifier on pose embeddings, pose + audio embeddings, pose + text embeddings, and pose + audio + text embeddings.
 - **Evaluation:** Includes the code files for evaluating the trained models for each combination of modalities, as well as the code for finding unseen speakers and creating UMAPS.
 
 ## Data
 The data used for this project was the TED-Expressive dataset created by Liu et al. (2022). 
-
 
 GitHub: https://github.com/alvinliu0/HA2G
 
